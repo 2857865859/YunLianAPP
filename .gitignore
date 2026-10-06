@@ -1,0 +1,9 @@
+artifacts/
+source/
+screenshots/resolve.jpg
+*.jks
+*.keystore
+local.properties
+.env*
+.gradle/
+**/build/

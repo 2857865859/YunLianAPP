@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ComposeEmptyActivity" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@android:color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.ComposeEmptyActivity</item>
+    </style>
+</resources>
